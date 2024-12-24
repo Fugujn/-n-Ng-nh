@@ -1,0 +1,24 @@
+RewriteEngine on
+ErrorDocument 404 https://noithathogia.com/
+DirectoryIndex home.htm index.php
+Options -Indexes
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+
+RewriteRule ^ivgpanel$ ivgpanel/ [L]
+RewriteRule ^ivgpanel/(.*)$ ivgpanel/$1 [L]
+
+RewriteRule ^&p=([0-9]+)$ index.php?com=index&p=$1  [L]
+RewriteRule ^([a-zA-Z0-9_-]+).html&p=([0-9]+)$ index.php?com=$1&p=$2 [L]
+RewriteRule ^([a-zA-Z0-9_-]+).html$ index.php?com=$1 [L]
+
+RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?com=$1 [L]
+RewriteRule ^([a-zA-Z0-9_-]+)&p=([0-9]+)$ index.php?com=$1&p=$2 [L]
+
+RewriteRule ^([a-zA-Z0-9_-]+).html/k=(.*)$ index.php?com=$1&k=$2  [L]
+RewriteRule ^([a-zA-Z0-9_-]+).html/k=(.*)&p=([0-9]+)$ index.php?com=$1&k=$2&p=$3  [L]
+
+RewriteRule ^([a-zA-Z0-9_-]+)&p=([0-9]+)$ index.php?com=$1&p=$2 [L]
+

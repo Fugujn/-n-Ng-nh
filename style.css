@@ -1,0 +1,15 @@
+@charset "utf-8";
+#container {
+	text-align: left;
+	width:100%;
+	height:650px;
+	margin:0px auto;
+	background: url(BACKGROUND.jpg) no-repeat top center;
+
+}
+.web {
+	/*background-image: url(images/web.png);
+	background-repeat: no-repeat;
+	height: 2000px;
+	width: 1000px;*/
+}
