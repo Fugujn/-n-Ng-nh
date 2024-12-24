@@ -1,7 +1,0 @@
-webbanhang
-IPV8ZCl2Y
-
-Database:webbanhang_data
-Host:localhost
-Username:webbanhang_user
-Password:wVLFpsmV
