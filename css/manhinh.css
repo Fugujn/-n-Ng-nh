@@ -1,0 +1,39 @@
+.row{margin-right:0px !important;margin-left:0px !important;}
+
+.mobilehienlen{display: none;}
+
+@media (max-width:710px){
+	.hotrocon{width: 44% !important;margin:0px 1% !important;margin-bottom: 2% !important}
+	.showphantram{width: 38% !important}
+}
+
+@media (max-width:500px){
+	.mobilehienlen{display: block;}
+	.mobileandi{display: none;}
+	.leftlist_cap2{display: none;}
+	.hotrocon{width: 96% !important;margin-top: 20px}
+	.leftnd_detail{width: 100% !important;margin-right:0px !important}
+	.left_hotro{width: 8% !important}
+	.right_hotro{width: 90% !important}
+	.ten_hotro p{font-size: 16px !important}
+	.mota_hotro{margin-top:5px !important}
+	.mota_hotro p{font-size: 14px !important}
+	.checkkhung1{width: 48% !important;}
+	.mota_hotro{height: auto !important}
+/*	.left_mota{width:100% !important;}*/
+/*	.right_logo{display: !important;}*/
+	.rightlist_cap2{width:100% !important;}
+	.chinhanhcon{width:90% !important;margin-left: 2% !important;margin-bottom: 20px}
+	.thongtinbrand{width:23% !important;margin-bottom: 2% !important;}
+	.listcap2_con{width:49% !important;margin-right: 2% !important}
+	.listcap2_con:nth-child(2n){margin-right: 0% !important;}
+	.baogioithieu{width: 96% !important;padding:2% !important}
+	.baoproduct{width: 96% !important;padding:2% !important}
+	.box_detail{width: 96% !important;padding:2% !important}
+	.baosearch_check{width: 96% !important;padding:2% !important}
+	.section-heading h2{font-size: 18px !important}
+	.productcon{width: 50% !important}
+
+	.gridshowanh{grid-template-columns:repeat(1,100%) !important}
+}
+
